@@ -288,7 +288,7 @@ kubernetes_server_private_ip="<your-web-server-private-ip>"
 node{
     stage('Git checkout'){
         //replace with your github repo url
-        git branch: 'main', url: 'https://github.com/khalifemubin/devops-project-one.git'
+        git branch: 'main', url: '[https://github.com/khalifemubin/devops-project-one.git](https://github.com/redjules/DevOps-CI-CD-pipelines-using-Git-Jenkins-Ansible-Docker-and-Kubernetes-on-AWS)'
     }
     
      //all below sshagent variables created using Pipeline syntax
